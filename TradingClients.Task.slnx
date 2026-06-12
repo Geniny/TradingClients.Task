@@ -1,0 +1,14 @@
+<Solution>
+    <Folder Name="/Orchestration/">
+        <Project Path="TradingClients.Task.AppHost/TradingClients.Task.AppHost.csproj"/>
+        <Project Path="TradingClients.Task.ServiceDefaults/TradingClients.Task.ServiceDefaults.csproj"/>
+    </Folder>
+    <Folder Name="/Services/">
+        <Project Path="Consumer.Service/Consumer.Service.csproj"/>
+        <Project Path="Producer.Service/Producer.Service.csproj"/>
+        <Project Path="Producer.Shared/Producer.Shared.csproj"/>
+    </Folder>
+    <Folder Name="/Tests/">
+        <Project Path="Consumer.Tests/Consumer.Tests.csproj"/>
+    </Folder>
+</Solution>

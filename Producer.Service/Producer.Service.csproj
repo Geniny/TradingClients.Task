@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Producer.Service-4c0b4e93-724f-4a5f-8920-78fe211002de</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Producer.Shared\Producer.Shared.csproj"/>
+        <ProjectReference Include="..\TradingClients.Task.ServiceDefaults\TradingClients.Task.ServiceDefaults.csproj"/>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.vsp
+*.vspx
+*.sap
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+
+# ASP.NET / secrets / local config
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+
+# NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Coverage
+coverage/
+coverage.*
+*.lcov
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
